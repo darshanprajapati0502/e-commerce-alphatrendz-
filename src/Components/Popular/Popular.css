@@ -1,0 +1,30 @@
+.Popular{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+    background-color: azure;
+    
+    
+}
+.Popular h1{
+    columns: #171717;
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.Popular hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+.popular-item{
+    width: fit-content;
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    height: max-content;
+    padding-left: 30px;
+}

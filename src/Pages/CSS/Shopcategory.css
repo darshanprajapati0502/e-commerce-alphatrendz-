@@ -1,0 +1,68 @@
+.banner{
+    display: block;
+    margin: 0px auto;
+    width: 82%; 
+    height: 50%;
+    padding: 20px;
+}
+.Shopcategory-indexSort{
+    display: flex;
+    margin: 0px 170px;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-top: 20px;
+}
+.Shopcategory-sort{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 1px solid #888;
+
+}
+.Shopcategory-indexSort p span{
+    font-weight: 600;
+}
+.shopcategory-product{
+    margin: 30px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    row-gap: 150px;
+    column-gap: 30px;
+    height: auto;
+    padding-left:40px;
+}
+.shop-category{
+    height: 1550px;
+     background: linear-gradient( 180deg,#cfd6d122 0%,#95c9dd 60%);
+
+}
+.banner-container{
+    
+     background: linear-gradient( 180deg,#95c9dd 60%,#cfd6d122 95%);
+}
+.shopcategory-loadmore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  auto ;
+   
+    
+    
+}
+.loadmore{
+    background-color:#95c9dd ;
+}
+.shopcategory-loadmore button{
+
+background-color: #ededed;
+    color: #210c7f;
+    border: none;
+    height: 69px;
+    width: 220px;
+    border-radius: 230px;
+    font-family: 'poppins';
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 100px;
+    
+}
